@@ -1,0 +1,77 @@
+# ============================================
+# Java / Maven (FinalFileSharing)
+# ============================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# Maven wrapper
+!mvnw
+!mvnw.cmd
+
+# ============================================
+# Node / npm (FileSharingFE)
+# ============================================
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+*.pnpm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# Application runtime
+# ============================================
+uploads/
+data/
+
+# ============================================
+# Sensitive configuration (contains DB creds, secrets, SMTP creds)
+# ============================================
+FinalFileSharing/src/main/resources/application.properties
+FinalFileSharing/src/main/resources/smtp.properties
+
+# ============================================
+# IDE / Editor
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Logs
+# ============================================
+*.log
+
+# ============================================
+# Spring Boot / Maven specific
+# ============================================
+!.mvn/wrapper/maven-wrapper.jar
