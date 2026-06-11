@@ -5,7 +5,7 @@ const REFRESH_TOKEN_KEY = "refreshToken";
 const USER_KEY = "authUser";
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:8080",
+  baseURL: import.meta.env.VITE_API_BASE_URL || "https://invfinalfilesharingapp.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
