@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ============================================
+# Sensitive configuration (contains DB creds, SMTP creds, JWT secrets)
+# ============================================
+src/main/resources/application.properties
+src/main/resources/smtp.properties
+
+# ============================================
+# Application runtime data
+# ============================================
+uploads/
+data/
+backend.log
